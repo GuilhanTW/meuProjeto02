@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+
+.page {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+   
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1F1534;
+    text-decoration: none;
+}
+
+ul li a {
+    opacity: 0.5;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #1F1534;
+
+    max-width: 490px;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    font-weight: normal;
+    line-height: 56px;
+}
+
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+section p {
+    color: #7D7987;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #69B99D;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+    
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+button span {
+    display: none;
+    width: 0;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background: #4EA788;
+    padding: 8px 15px;
+    border-radius: 32px;
+    transition: padding ease 0.3s;
+}
+
+button:hover > span {
+    display: inherit;
+    padding: 0px 0px 0px 15px;
+    width: auto;
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+footer {
+    color: #1F1534;
+    margin-top: 80px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+.balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
